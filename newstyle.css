@@ -1,0 +1,140 @@
+.body{
+    padding: 0;
+    margin-top: 3vw;
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+.img1{
+    height: 35vw;
+    width: 40vw;
+border-radius: 10vw;
+}
+.h11{
+    text-align: center;
+    font-size: 2vw;
+    border-radius: 10px;
+    padding: 0px;
+    margin-top: 1vw;
+}
+.h11 h1
+{
+    padding: 0px;
+    margin: 0px;
+    color:rgb(255, 255, 255);
+    font-size: 4vw;
+    font-family: sans-serif;
+}
+.about{
+    font-size: 1rem;
+    text-align: center;
+    background-color: black;
+    color: black;
+border-radius: 30px;
+margin-top: 1vw;
+box-shadow: 3px 3px 3px white;
+color: rgb(223, 226, 13);
+margin: 3vw;
+margin-top: 0vw;
+padding: 1vw;
+}
+.info{
+    list-style: none;
+    margin-left: 1vw;
+    margin-top: 2vw;
+}
+.achi{
+    margin-top: 0px;
+    list-style: none;
+    margin-left: 1vw;
+}
+.achl{
+    margin-top: 1vw;
+}
+.photos{
+    height: 30vw;
+    width: 60vw;
+    margin-bottom: 3vw;
+    margin-left: 20vw;
+    animation: sirratan 10s infinite;
+    border-radius: 4vw;
+    margin-top: 0px;
+}
+@keyframes sirratan
+{
+   0% {background-image: url("./images\ \(9\).jpeg");}
+   20%{background-image: url("./images\ \(8\).jpeg");}
+   45%{background-image: url("./images\ \(7\).jpeg");}
+   60%{background-image: url("./images\ \(6\).jpeg");}
+   75%{background-image: url("./images\ \(5\).jpeg");}
+   90%{background-image: url("./images\ \r.jpeg");}
+}
+.h3{
+    font-size: 2vw;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 1vw;
+}
+.nav{
+    color: white;
+    position: fixed;
+    display: inline-block;
+}
+.nav-content{
+    font-size:20vm ;
+    height: 4vw;
+    width: 3vw;
+    border-bottom: 3px solid black;
+    border-radius: 1.2vw;
+}
+.ul{
+    display: none;
+    position: absolute;
+    box-shadow: 3px 3px 3px white;
+    list-style: none;
+    border-radius: 4vw;
+    z-index: 1;
+}
+.ul li a{
+    text-decoration: none;
+    margin-left: 20vm;
+padding: 2vw 4vw;
+    display: block;
+    color: white;
+    font-size: 1.4vw;
+}
+.ul a:hover{
+   background-color: white;
+   color: black;
+   border-radius: 30vw;
+}
+.nav:hover .ul{
+    display: block;
+}
+.nav:hover .nav-content{
+    background-color: black;
+}
+.logos{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+    background-color: black;
+}
+.icon1{
+    background-color: black;
+    height: 4vw;
+    margin: 1vw;
+    align-items: center;
+}
+.icon2{
+    background-color: black;
+    height: 4vw;
+    margin: 1vw;
+}
+.icon3{
+    background-color: black;
+    height: 3.5vw;
+    margin: 1vw;
+    margin-top: 1.250vw;
+}
